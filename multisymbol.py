@@ -140,7 +140,7 @@ style.configure("TLabel", background="#000000", foreground="#FF4444", font=("Seg
 style.configure("TButton", background="#FF4444", foreground="#000000", font=("Segoe UI", 11, "bold"), padding=6)
 style.map("TButton", background=[('active', '#FF0000')], foreground=[('active', '#FFFFFF')])
 
-ttk.Label(root, text="💠 Multi-Symbol Signal Bot", font=("Segoe UI", 22, "bold")).pack(pady=10)
+ttk.Label(root, text="Multi-Symbol Signal Bot", font=("Segoe UI", 22, "bold")).pack(pady=10)
 symbol_var = tk.StringVar(value="EUR/USD")
 ttk.OptionMenu(root, symbol_var, "EUR/USD", *symbols).pack()
 
@@ -152,7 +152,7 @@ ttk.Button(root, text="📊 Analyze Market", command=update_analysis).pack(pady=
 
 chart_frame = ttk.Frame(root)
 chart_frame.pack()
-watermark = tk.Label(root, text="💼 STEEL TECH BOSS", font=("Segoe UI", 10, "bold"),
+watermark = tk.Label(root, text="STEEL TECH 3", font=("Segoe UI", 10, "bold"),
                      bg="#000000", fg="#444444")
 watermark.place(relx=1.0, rely=1.0, anchor='se', x=-10, y=-10)
 
